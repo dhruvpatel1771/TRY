@@ -11,7 +11,7 @@ import messageRoute from "./routes/message.route.js";
 const app = express();
 
 // Allow requests from http://localhost:5173
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['https://estatefrontend-fhne7fwk1-dhruv-patels-projects-5e029139.vercel.app'];
 
 app.use(cors({
   origin: function (origin, callback) {
